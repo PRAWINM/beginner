@@ -1,1 +1,2 @@
-print(input("Enter String"))
+a=input("Enter String")
+print(a)
