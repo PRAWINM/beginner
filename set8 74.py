@@ -1,2 +1,3 @@
+import math
 N=float(input())
-print(round(N))
+print(math.floor(N+0.9))
