@@ -1,3 +1,2 @@
-n=int(input("Enter the n value"))
-k=int(input("Enter the k value"))
+n,k=map(int,input().split(" "))
 print(n**k)
