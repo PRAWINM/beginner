@@ -1,7 +1,4 @@
 N,k=map(int,input().split(" "))
-n=[]
-for i in range(0,N):
-  b=int(input())
-  n.append(b)
-c=sorted(n)
+A=list(map(int,input().split(" ")))[:N]
+c=sorted(A)
 print(c[k-1])
