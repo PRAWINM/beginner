@@ -1,9 +1,7 @@
 N,k=map(int,input().split(" "))
-n=[]
-for i in range(0,N):
-  n.append(int(input()))
+A=list(map(int,input().split(" ")))[:N]
 L=[]
-for i in n: 
+for i in A: 
   if(i%2!=0):
     L.append(i)
 print(L[k-1])
