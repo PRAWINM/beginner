@@ -1,4 +1,4 @@
-a=input("Enter String:")
+a=input()
 if (a==a[::-1]):
     print("yes")
 else:
