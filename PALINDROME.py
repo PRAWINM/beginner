@@ -1,7 +1,7 @@
-a=int(input("Enter the number:"))
+a=int(input())
 a=str(a)
 b=a[::-1]
 if(b==a):
-  print("palindrome")
+  print("yes")
 else:
-  print("not a palindrome")
+  print("no")
