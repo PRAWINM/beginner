@@ -1,4 +1,4 @@
-n=input("Enter the String")
+n=input()
 if n.isnumeric():
     print('Yes')
 else:
