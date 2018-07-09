@@ -1,7 +1,5 @@
-h1,m1=input("Enter first time").split()
-h1,m1=int(h1),int(m1)
-h2,m2=input("Enter Second time").split()
-h2,m2=int(h2),int(m2)
+h1,m1=map(int,input().split(' '))
+h2,m2=map(int,input().split(' '))
 l1=(h1*60)+m1
 l2= (h2*60)+m2
 tmin=abs(l1-l2)
