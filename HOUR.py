@@ -1,4 +1,4 @@
-minutes= int(input("enter the value"))
+minutes= int(input())
 a=minutes
 minutes =a%60
 hours = a//60
