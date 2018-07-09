@@ -1,4 +1,4 @@
-num = int(input("Enter a number: "))
+num = int(input())
 sum = 0
 temp = num
 while temp > 0:
@@ -6,6 +6,6 @@ while temp > 0:
    sum =sum+ digit ** 3
    temp=temp//10
 if num == sum:
-   print(" Armstrong number")
+   print("yes")
 else:
-   print(" not an Armstrong number")
+   print(" no")
