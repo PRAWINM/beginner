@@ -1,5 +1,4 @@
-num= int(input())
-a=[]
-for i in range(0,num):
-  a.append(int(input()))
-print(sorted(a))
+b=int(input())
+a=list(map(int,input().split(' ')))[:b]
+a.sort()
+print(a)
